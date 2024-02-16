@@ -241,6 +241,25 @@ var str = "hello ji hello ji"
 
 
 // Date.now() =>  returns time in ms from jan 1 1970 till now
-
+// toLocaleTimeString , toLocaleDateString
 // new Date(year,month,date,hour,min,sec,ms)
 // console.log(new Date(2024,1,4,22,20,35,0).toLocaleString())
+
+
+// CEIL VS ROUND  =>  ceil 99.01 ki 100 krdega round 99 krdega round means round off 
+
+// console.log(Math.floor((Math.random()*10000) + (Math.random()*1000) + (Math.random()*100) + (Math.random()*10)));
+
+
+
+
+// WINDOW  =>  window is main container or we can say the global object and any operations related to entire browser window can be part of window object
+//  where document is child of window also not compulsory to refer window like window.location or window.alert just mention the name but in case of dom we need to refer like document .query selector also
+//  dom is used to change only html properties of window cannot be used by dom
+
+// bom => browser object model
+
+// window has three child DOM => document ,  BOM => navigator,screen , location,frames,history,xml request and JAVASCRIPT => object,array,function
+
+
+// ********   html is the root of the document
